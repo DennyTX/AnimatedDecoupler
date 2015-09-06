@@ -1,7 +1,7 @@
 AnimatedDecouplers
 ==================
 
-It just add an animation possibility BEFORE decoupling.
+This just adds possibility  to play animation BEFORE decoupling.
 Also, it can catch following: 
 event (Right mouse click and select item from context menu),
 from action (predefined action group), and while staging. 
