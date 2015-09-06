@@ -28,3 +28,12 @@ For example:
 	    animationName = YourAnimationName
 	}
 
+	ModuleManager string:
+	@PART[*]:HAS[@MODULE[ModuleDecouple]]
+	{
+		@MODULE[ModuleDecouple]
+		{
+			@name = ModuleAnimatedDecoupler
+			animationName = YourAnimationName
+		}
+	}
