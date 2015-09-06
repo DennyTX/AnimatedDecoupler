@@ -27,8 +27,10 @@ For example:
 	    staged = false
 	    animationName = YourAnimationName
 	}
-
+	
+	
 	ModuleManager string:
+	
 	@PART[*]:HAS[@MODULE[ModuleDecouple]]
 	{
 		@MODULE[ModuleDecouple]
