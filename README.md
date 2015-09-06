@@ -6,9 +6,19 @@ It should be used instead of stock moduleDecoupler, with same  cfg config, just 
 
 For example:
 
-MODULE
+	MODULE
 {
-  name = ModuleAnimatedDecoupler//ModuleAnimatedAnchoredDecoupler
+  name = ModuleAnimatedDecoupler
+  ejectionForce = 200
+  explosiveNodeID = top
+  staged = false
+  animationName = YourAnimationName
+}
+	
+
+	MODULE
+{
+  name = ModuleAnimatedAnchoredDecoupler
   ejectionForce = 200
   explosiveNodeID = top
   staged = false
