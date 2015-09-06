@@ -6,7 +6,7 @@ It should be used instead of stock moduleDecoupler, with same  cfg config, just 
 
 For example:
 
-	MODULE
+MODULE
 {
   name = ModuleAnimatedDecoupler
   ejectionForce = 200
@@ -16,7 +16,7 @@ For example:
 }
 	
 
-	MODULE
+MODULE
 {
   name = ModuleAnimatedAnchoredDecoupler
   ejectionForce = 200
